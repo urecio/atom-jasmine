@@ -5,8 +5,4 @@
 ## Install
 
 1. clone the repo
-2.
-
-```bash
-$ apm link
-```
+2. `apm link`

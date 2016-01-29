@@ -4,8 +4,10 @@
 
 ## Install
 
+1. clone the repo
+2.
 ```bash
-$ apm install atom-jasmine
+$ apm link
 ```
 
 Or Settings ➔ Packages ➔ Search for `jasmine`

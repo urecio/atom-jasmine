@@ -38,6 +38,12 @@
   'Expect to equal':
     prefix: 'ee'
     body:   'expect(${1:target}).toEqual(${2:value});$3'
+  'Expect to equal':
+    prefix: 'eg'
+    body:   'expect(${1:target}).toBeGreaterThan(${2:value});$3'
+  'Expect to equal':
+    prefix: 'el'
+    body:   'expect(${1:target}).toBeLessThan(${2:value});$3'
   'Expect to match':
     prefix: 'em'
     body:   'expect(${1:target}).toMatch(${2:pattern});$3'

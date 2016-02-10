@@ -38,10 +38,10 @@
   'Expect to equal':
     prefix: 'ee'
     body:   'expect(${1:target}).toEqual(${2:value});$3'
-  'Expect to equal':
+  'Expect to bet greater than':
     prefix: 'eg'
     body:   'expect(${1:target}).toBeGreaterThan(${2:value});$3'
-  'Expect to equal':
+  'Expect to be less than':
     prefix: 'el'
     body:   'expect(${1:target}).toBeLessThan(${2:value});$3'
   'Expect to match':
